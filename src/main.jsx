@@ -18,9 +18,9 @@ const router = createBrowserRouter([
     element:<App/>,
     children:[
       { path:"/", element:<Shop/>},
-      { path:"/mens", element:<ShopCategory category ="mens" banner={men_banner}/>},
-      { path:"/womens", element:<ShopCategory category ="womens" banner={women_banner}/>},
-      { path:"/kids", element:<ShopCategory category ="kids" banner={kid_banner}/>},
+      { path:"/mens", element:<ShopCategory category ="men" banner={men_banner}/>},
+      { path:"/womens", element:<ShopCategory category ="women" banner={women_banner}/>},
+      { path:"/kids", element:<ShopCategory category ="kid" banner={kid_banner}/>},
       { path:"/product", element:<Product/>},
       { path:"/product/:id", element:<Product/>},
       {path:"/cart", element:<Cart/>},

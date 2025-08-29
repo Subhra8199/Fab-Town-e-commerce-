@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+        font-family: "Roboto", sans-serif;
 }
 .relatedProducts h1{
     color: #171717;
